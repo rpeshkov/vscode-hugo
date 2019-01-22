@@ -10,14 +10,15 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:hugo.updateTimestamp"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "hugo.updateTimestamp",
+				"title": "Update timestamp",
+				"category": "Hugo"
 			}
 		]
 	},
